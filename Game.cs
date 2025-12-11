@@ -36,7 +36,7 @@ public class Game
             PlayRound();
             DisplayScores();
             
-            Console.WriteLine("\nDo you want to play another round? (y/n): ");
+            Console.Write("\nDo you want to play another round? (y/n): ");
             string? response = Console.ReadLine()?.ToLower();
             
             if (response != "y" && response != "yes")
